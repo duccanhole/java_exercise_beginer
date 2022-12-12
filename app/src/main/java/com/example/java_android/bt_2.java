@@ -9,7 +9,7 @@ import android.widget.SimpleAdapter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class MainActivity2 extends AppCompatActivity {
+public class bt_2 extends AppCompatActivity {
     ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
     private SimpleAdapter sa;
     ListView listView;
@@ -17,7 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_bt2);
         HashMap<String, String> item_test = new HashMap<String, String>();
         item_test.put("title", "aaaa");
         item_test.put("content", "lorem ipsum");
